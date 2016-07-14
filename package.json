@@ -1,0 +1,16 @@
+{
+  "name": "bot_course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ". ./.token && nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.5.1",
+    "is-phone": "^2.0.0"
+  }
+}
