@@ -83,7 +83,7 @@ handlers.GET_GENDER = (message) => {
   return userData.forEach((value) => {
     return rtm.sendMessage(value, message.channel);
   });
-}
+}; 
 
 
 const router = (message) => {
